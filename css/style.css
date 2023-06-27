@@ -45,3 +45,21 @@ body{
 @keyframes anima-sprite {
     100% { background-position-x: -592px; }
 }
+
+.navio{
+    position: relative;
+    rotate: 15deg;
+    top: 20vh;
+    left: 110vh;
+}
+
+/*.anima-div-lula{
+    position: relative;
+    background: url(../imgs/lula.png) -0px -0px;
+    height: 750px;
+    width: 400px; 
+    animation: anima-sprite-lula 1s steps(5) infinite;
+}
+@keyframes anima-sprite-lula {
+    100% { background-position-x: -2000px; }
+}*/
