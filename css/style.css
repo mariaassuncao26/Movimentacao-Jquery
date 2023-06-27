@@ -11,6 +11,7 @@ body{
 }
 
 .anima-div  {
+    position: relative;
     background: url(../imgs/hai_0.png) -0px -280px;
     height: 142px;
     width: 148px; 
@@ -18,6 +19,7 @@ body{
 }
 
 .anima-div-esquerda  {
+    position: relative;
     background: url(../imgs/hai_0.png) -0px -142px;
     height: 142px;
     width: 148px; 
@@ -25,6 +27,7 @@ body{
 }
 
 .anima-div-cima  {
+    position: relative;
     background: url(../imgs/hai_0.png) -0px -420px;
     height: 142px;
     width: 148px; 
@@ -32,6 +35,7 @@ body{
 }
 
 .anima-div-baixo  {
+    position: relative;
     background: url(../imgs/hai_0.png) -0px -0px;
     height: 142px;
     width: 148px; 
