@@ -1,0 +1,43 @@
+body{
+    background: url(../imgs/dia_upscaled.jpg) fixed;
+    background-size: cover;
+}
+
+.btn{
+    padding: 10px;
+    background-color: #68b0bd;
+    border: none;
+    border-radius: 5px;
+}
+
+.anima-div  {
+    background: url(../imgs/hai_0.png) -0px -280px;
+    height: 142px;
+    width: 148px; 
+    animation: anima-sprite 1s steps(4) infinite;
+}
+
+.anima-div-esquerda  {
+    background: url(../imgs/hai_0.png) -0px -142px;
+    height: 142px;
+    width: 148px; 
+    animation: anima-sprite 1s steps(4) infinite;
+}
+
+.anima-div-cima  {
+    background: url(../imgs/hai_0.png) -0px -420px;
+    height: 142px;
+    width: 148px; 
+    animation: anima-sprite 1s steps(4) infinite;
+}
+
+.anima-div-baixo  {
+    background: url(../imgs/hai_0.png) -0px -0px;
+    height: 142px;
+    width: 148px; 
+    animation: anima-sprite 1s steps(4) infinite;
+  }
+  
+@keyframes anima-sprite {
+    100% { background-position-x: -592px; }
+}
